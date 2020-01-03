@@ -3,8 +3,8 @@ import sys
 import subprocess
 import argparse
 
-STAGING = "54.197.32.199"
-PROD = "54.172.55.226"
+STAGING = ""
+PROD = ""
 
 parser = argparse.ArgumentParser(description="SSH into one of the EC2 instances.", prog="awsh")
 parser.add_argument('environment', help="Environment, either staging or production",
